@@ -2,6 +2,7 @@
 import config from '@/content/config.mjs';
 
 export default function Hero() {
+  console.log('Hero component rendered', config.hero); // 调试信息
   return (
     <div className="hero">
       <h1>{config.hero.title}</h1>
