@@ -11,7 +11,7 @@ cta:
 ---
 # 正文标题
 ==成果=效率X时间==^[[[心流]]是影响效率的关键因素]
-[[外部]]
+[[外部]][[my-blog-post]]
 [[杂]]
 ![](https://tuku-1357805171.cos.ap-beijing.myqcloud.com/obsidian/20250505111931939.png)
 ![PixPin_2025-05-05_11-26-39.gif](https://tuku-1357805171.cos.ap-beijing.myqcloud.com/obsidian/%E8%80%81%E5%A4%B4%E7%8E%AF.gif)
