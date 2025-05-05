@@ -18,7 +18,7 @@ const config = {
     ]
   },
   domain: "https://john.app/", // 网站域名
-  navLinks: [{ href: "/about", name: "不要点进来" }], // 导航链接
+  navLinks: [{ href: "https://www.134916.xyz/%E6%9D%82", name: "不要点进来" }], // 导航链接
   showSidebar: true // 是否显示侧边栏
 };
 
