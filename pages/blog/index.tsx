@@ -5,7 +5,7 @@ import { BlogsList, SimpleLayout } from "@portaljs/core";
 import clientPromise from "@/lib/mddb.mjs";
 import computeFields from "@/lib/computeFields";
 import type { CustomAppProps } from "../_app";
-import Hero from '@/components/Hero.txs'; // 添加这一行导入 Hero 组件
+import Hero from '@/components/Hero'; // 添加这一行导入 Hero 组件
 
 interface BlogIndexPageProps extends CustomAppProps {
     blogs: any[]; // TODO types
