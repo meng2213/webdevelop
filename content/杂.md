@@ -1,0 +1,15 @@
+2
+git remote set-url origin https://github.com/meng2213/webdevelop.git
+git remote add origin https://github.com/meng2213/webdevelop.git
+git remote add webdevelop https://github.com/meng2213/webdevelop.git
+git push webdevelop main
+git push webdevelop HEAD:main
+
+git init
+
+git config --global user.email " 1349169592@qq.com"
+git config --global user.name "meng2213"
+
+git add .
+git commit -m "Initial commit"
+git remote add webdevelop https://github.com/meng2213/webdevelop.git
