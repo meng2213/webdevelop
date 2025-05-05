@@ -85,9 +85,11 @@ html {
 }
 /* Hero section styles */
 .hero {
-  background-color: #f0f0f0; /* 背景颜色 */
-  padding: 40px 20px; /* 内边距，控制内容与边框的距离 */
-  text-align: center; /* 文本居中 */
+  width: 100%;
+  min-height: 400px; /* 确保容器有高度 */
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f0f0; /* 临时添加背景色，确认容器可见 */
 }
 
 .hero h1 {
