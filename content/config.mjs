@@ -11,6 +11,11 @@ const config = {
   author: "M",
    // logo image
   authorLogo: "/logo.png", // 确保路径正确
+  domain: "https://john.app/",
+  // links to the pages you want to link to in the navbar
+  navLinks: [{ href: "/about", name: "不要点进来" }],
+  // 添加 showSidebar 配置
+  showSidebar: true,
 };
 
 export default config;
