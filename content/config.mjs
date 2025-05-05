@@ -7,7 +7,7 @@ const config = {
   title: "一个简单的网页", // 网站标题，将显示在页面顶部
   description: "这是一个简单的网页，用于测试开发。", // 网站描述，有助于SEO
   author: "M", // 网站底部显示的作者名
-  authorLogo: "/logo.png", // 确保logo图片路径正确
+  authorLogo: "/assets/hero.png", // 确保logo图片路径正确
   hero: {
     title: "Welcome to my site!", // 英雄部分的标题
     description: "A collection of interesting thoughts and ideas", // 英雄部分的描述
