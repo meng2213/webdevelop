@@ -1,5 +1,5 @@
 // components/Hero.tsx
-import { config } from '../config/config.mjs';
+import { config } from '../content/config.mjs';
 
 export default function Hero() {
   return (
