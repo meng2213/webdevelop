@@ -1,0 +1,16 @@
+{
+  "showHero": true,
+  "title": "Welcome to my site!",
+  "description": "A collection of interesting thoughts and ideas",
+  "image": "/assets/hero.jpg",
+  "cta": [
+    {
+      "href": "/about",
+      "label": "About"
+    },
+    {
+      "href": "/docs",
+      "label": "Docs"
+    }
+  ]
+}
