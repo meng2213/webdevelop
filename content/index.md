@@ -1,15 +1,15 @@
 ---
-showHero: true
-title: Welcome to my blog!
+showHero: false
+title: 这是个标题
 description: Join me as I explore the world, code, and the little things in life that make it wonderful.
-image: /hero.png
+image: /assets/hero.png
 cta:
   - href: /about
     label: About me
   - href: /featured
     label: Featured posts
 ---
-# 一个大标题这是
+# 正文标题
 ==成果=效率X时间==^[[[心流]]是影响效率的关键因素]
 [[外部]]
 [[杂]]
