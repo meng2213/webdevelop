@@ -10,7 +10,7 @@ const config = {
   // author of site displayed on the bottom of your site
   author: "M",
    // logo image
-  authorLogo: "/logo.jpg", // 确保路径正确
+  authorLogo: "/logo.png", // 确保路径正确
 };
 
 export default config;
