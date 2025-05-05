@@ -1,3 +1,4 @@
+// siteConfig.ts
 import userConfig from "@/content/config.mjs";
 import {
   AnalyticsConfig,
@@ -8,19 +9,6 @@ import {
   defaultConfig,
 } from "@portaljs/core";
 import { DefaultSeoProps } from "next-seo";
-
-const siteConfig: SiteConfig = {
-  ...defaultConfig,
-  ...userConfig,
-  // prevent theme object overrides for
-  // values not provided in userConfig
-  theme: {
-    ...defaultConfig.theme,
-    ...userConfig?.theme,
-  },
-};
-
-export default siteConfig;
 
 export type UserConfig = {
   analyticsConfig?: AnalyticsConfig;
@@ -41,6 +29,24 @@ export type UserConfig = {
   title?: string;
   author: string;
   domain: string;
+  hero?: { // 添加 hero 属性
+    title: string;
+    description: string;
+    image: string;
+    cta: Array<{ href: string; label: string }>;
+  };
 } & Partial<typeof defaultConfig>;
 
 export type SiteConfig = typeof defaultConfig & typeof userConfig;
+
+const siteConfig: SiteConfig = {
+  ...defaultConfig,
+  ...userConfig,
+  // 防止 theme 对象被覆盖
+  theme: {
+    ...defaultConfig.theme,
+    ...userConfig?.theme,
+  },
+};
+
+export default siteConfig;
