@@ -1,5 +1,5 @@
 ---
-showHero: false
+showHero: true
 title: 这是个标题
 description: Join me as I explore the world, code, and the little things in life that make it wonderful.
 image: /assets/hero.png
