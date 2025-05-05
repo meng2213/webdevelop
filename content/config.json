@@ -1,0 +1,16 @@
+{
+  "showHero": true,
+  "title": "欢迎光~临",
+  "description": "A collection of interesting thoughts and ideas",
+  "image": "/assets/logo.png",
+  "cta": [
+    {
+      "href": "/about",
+      "label": "关于"
+    },
+    {
+      "href": "/docs",
+      "label": "下载"
+    }
+  ]
+}
