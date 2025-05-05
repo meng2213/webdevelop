@@ -7,4 +7,4 @@ const config = {
   title: "一个简单的网页",
 };
 
-export default {};
+export default config;
