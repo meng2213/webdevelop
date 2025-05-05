@@ -2,6 +2,13 @@
 showHero: true
 title: Welcome to my blog!
 description: Join me as I explore the world, code, and the little things in life that make it wonderful.
+cta:
+  - href: #featured-posts
+    label: Featured posts
+  - href: /about
+    label: About me
+---
+
 ---
 # 一个大标题这是
 ==成果=效率X时间==^[[[心流]]是影响效率的关键因素]
